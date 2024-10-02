@@ -9,3 +9,4 @@ class RnntResourceRequirement:
         'marginalMem': 0.06 * 2 ** 30,  # 60MB
         'marginalCpu': 12.5
     }
+    

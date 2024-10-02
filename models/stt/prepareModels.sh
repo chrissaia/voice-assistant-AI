@@ -1,6 +1,7 @@
 #! /usr/bin/env bash
 set -u
 
+
 cleanup() {
   local pids=$(jobs -pr)
   if [ -n "$pids" ]; then

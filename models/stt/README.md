@@ -53,7 +53,6 @@ docker run --rm -it --env ACCEPT_LICENSE=true --publish 1080:1080 stt-standalone
 ### Step 5: Query the STT service
 
 Open up another terminal to query the service. To start, get a of the language models available from the service.
-
 ```sh
 curl "http://localhost:1080/speech-to-text/api/v1/models"
 ```

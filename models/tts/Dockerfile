@@ -57,3 +57,4 @@ RUN ./prepareModels.sh
 FROM runtime as release
 
 COPY --from=model_cache ${CONFIG_DIR}/cache/ ${CONFIG_DIR}/cache/
+

@@ -7,7 +7,6 @@ FROM cp.icr.io/cp/ai/watson-stt-fr-fr-multimedia:1.1.0 as fr-fr-multimedia
 # Base image for the runtime
 FROM cp.icr.io/cp/ai/watson-stt-runtime:1.1.0 AS runtime
 
-
 # Configuration file directory
 ENV LOCAL_DIR=chuck_var
 

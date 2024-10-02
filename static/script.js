@@ -7,6 +7,7 @@ const botRepeatButtonIDToIndexMap = {};
 const userRepeatButtonIDToRecordingMap = {};
 const baseUrl = window.location.origin;
 
+
 async function showBotLoadingAnimation() {
   await sleep(500);
   $(".loading-animation")[1].style.display = "inline-block";
